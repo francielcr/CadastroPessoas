@@ -1,0 +1,15 @@
+D:\Analise de sistema - Estácio\SENAI -  FULLSTACK\PFS_UC12 - CODIFICAÇÃO PARA BACK-END\SA2\CadastroPessoas\bin\Debug\net6.0\CadastroPessoas.exe
+D:\Analise de sistema - Estácio\SENAI -  FULLSTACK\PFS_UC12 - CODIFICAÇÃO PARA BACK-END\SA2\CadastroPessoas\bin\Debug\net6.0\CadastroPessoas.deps.json
+D:\Analise de sistema - Estácio\SENAI -  FULLSTACK\PFS_UC12 - CODIFICAÇÃO PARA BACK-END\SA2\CadastroPessoas\bin\Debug\net6.0\CadastroPessoas.runtimeconfig.json
+D:\Analise de sistema - Estácio\SENAI -  FULLSTACK\PFS_UC12 - CODIFICAÇÃO PARA BACK-END\SA2\CadastroPessoas\bin\Debug\net6.0\CadastroPessoas.dll
+D:\Analise de sistema - Estácio\SENAI -  FULLSTACK\PFS_UC12 - CODIFICAÇÃO PARA BACK-END\SA2\CadastroPessoas\bin\Debug\net6.0\CadastroPessoas.pdb
+D:\Analise de sistema - Estácio\SENAI -  FULLSTACK\PFS_UC12 - CODIFICAÇÃO PARA BACK-END\SA2\CadastroPessoas\obj\Debug\net6.0\CadastroPessoas.csproj.AssemblyReference.cache
+D:\Analise de sistema - Estácio\SENAI -  FULLSTACK\PFS_UC12 - CODIFICAÇÃO PARA BACK-END\SA2\CadastroPessoas\obj\Debug\net6.0\CadastroPessoas.GeneratedMSBuildEditorConfig.editorconfig
+D:\Analise de sistema - Estácio\SENAI -  FULLSTACK\PFS_UC12 - CODIFICAÇÃO PARA BACK-END\SA2\CadastroPessoas\obj\Debug\net6.0\CadastroPessoas.AssemblyInfoInputs.cache
+D:\Analise de sistema - Estácio\SENAI -  FULLSTACK\PFS_UC12 - CODIFICAÇÃO PARA BACK-END\SA2\CadastroPessoas\obj\Debug\net6.0\CadastroPessoas.AssemblyInfo.cs
+D:\Analise de sistema - Estácio\SENAI -  FULLSTACK\PFS_UC12 - CODIFICAÇÃO PARA BACK-END\SA2\CadastroPessoas\obj\Debug\net6.0\CadastroPessoas.csproj.CoreCompileInputs.cache
+D:\Analise de sistema - Estácio\SENAI -  FULLSTACK\PFS_UC12 - CODIFICAÇÃO PARA BACK-END\SA2\CadastroPessoas\obj\Debug\net6.0\CadastroPessoas.dll
+D:\Analise de sistema - Estácio\SENAI -  FULLSTACK\PFS_UC12 - CODIFICAÇÃO PARA BACK-END\SA2\CadastroPessoas\obj\Debug\net6.0\refint\CadastroPessoas.dll
+D:\Analise de sistema - Estácio\SENAI -  FULLSTACK\PFS_UC12 - CODIFICAÇÃO PARA BACK-END\SA2\CadastroPessoas\obj\Debug\net6.0\CadastroPessoas.pdb
+D:\Analise de sistema - Estácio\SENAI -  FULLSTACK\PFS_UC12 - CODIFICAÇÃO PARA BACK-END\SA2\CadastroPessoas\obj\Debug\net6.0\CadastroPessoas.genruntimeconfig.cache
+D:\Analise de sistema - Estácio\SENAI -  FULLSTACK\PFS_UC12 - CODIFICAÇÃO PARA BACK-END\SA2\CadastroPessoas\obj\Debug\net6.0\ref\CadastroPessoas.dll
