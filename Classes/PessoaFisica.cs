@@ -5,7 +5,7 @@ namespace CadastroPessoas.Classes
     public class PessoaFisica : Pessoa, IPessoaFisica
     {
         public string ?cpf { get; set; }
-        public DateTime ?dataNascimento { get; set; }
+        public string ?dataNascimento { get; set; }
         
         
         
@@ -13,9 +13,21 @@ namespace CadastroPessoas.Classes
         {
             throw new NotImplementedException();
         }
-        public bool ValidarDataNascimento(DateTime dataNasc)
+        public bool ValidarDataNascimento(string dataNasc)
         {
-            throw new NotImplementedException();
-        }
+            DateTime dataConvertida;
+            if(DateTime.TryParse(dataNasc, out dataConvertida)){//TryParse tenta converter e colocar na saida out
+                //Console.WriteLine($"{dataConvertida}");
+                DateTime dataAtual = DateTime.Today;
+                double anos = (dataAtual - dataConvertida).TotalDays/365;
+                if (anos>=18){
+                    return true;
+                }
+                return false;
+            }
+            return false;
+                
+        }            
+           
     }
 }
