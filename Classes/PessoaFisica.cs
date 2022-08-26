@@ -24,6 +24,15 @@ namespace CadastroPessoas.Classes
                 return (rendimento/100)*5;
             }
         }
+
+        public bool ValidarDataNascimento(DateTime dataNasc){
+            DateTime dataAtual = DateTime.Today;
+            double anos = (dataAtual - dataNasc).TotalDays /365;
+            if (anos >= 18){
+                return true;
+            }
+            return false;
+        }
         public bool ValidarDataNascimento(string dataNasc)
         {
             DateTime dataConvertida;
