@@ -265,14 +265,31 @@ do
                         Console.WriteLine($"Cadastro realizado com sucesso");
                         Console.ResetColor();
                         Thread.Sleep(4000);
-                                                
-                        break;
+
+                        metodoPj.Inserir(novaPj);
+                    break;
+                    
+                   
                     case "2":
                         Console.Clear();
+                        List<PessoaJuridica>ListaPj = metodoPj.Ler();
+                        //foreach (PessoaJuridica cadaPessoa in listaPj)
+                        foreach (PessoaJuridica cadaItem in listaPj)
 
-                            if (listaPj.Count > 0){
-                                foreach (PessoaJuridica cadaPessoa in listaPj)
-                                {
+                            {
+                                    Console.Clear();
+                                    Console.WriteLine(@$"
+                                    Nome: {cadaItem.nome}
+                                    Razao Social: {cadaItem.razaoSocial}
+                                    CNPJ: {cadaItem.cnpj}
+                                    ");
+                                Console.WriteLine($"Aperte 'Enter' para continuar");
+                                Console.ReadLine();
+                            }
+
+                            //if (listaPj.Count > 0){
+                                
+                                /*{
                                     Console.Clear();
                                     Console.WriteLine(@$"
                                     Nome: {cadaPessoa.nome}
@@ -286,11 +303,11 @@ do
                                 Console.WriteLine($"Aperte 'Enter' para continuar");
                                 Console.ReadLine();
                                 }
-                            }
+                           }
                             else{
                                 Console.WriteLine($"Lista Vazia!!!");
                                 Thread.Sleep(3000);
-                            }
+                            }*/
 
                         break;
                     case "0":
@@ -300,8 +317,12 @@ do
                         Console.WriteLine($"Opção Inválida, por favor digite outra opção.");
                         Thread.Sleep(2000);
                     break;
+                    
                 }
             }while (opcaoPj != "0");
+
+        
+
             break;
 
 
@@ -324,6 +345,7 @@ do
             Console.ReadLine();
             break;
         */
+        
         case "0":
             Console.Clear();
             Console.WriteLine($"Obrigado por utilizar nosso sistema!");         
